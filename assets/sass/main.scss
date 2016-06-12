@@ -1,0 +1,244 @@
+
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.5); }
+$tipografia: "Open Sans", sans-serif;
+$color-gris-oscuro:#dfdfdf;
+$color-blanco:#FFFFFF;
+$color-negro:#000000;
+$color-rojo:#FA5858;
+$color-plomo:#9A9A9B;
+$color-gris:#F4F5F7;
+$color-rojoclaro:#DD4A4A;
+$color-blue:#316AA4;
+$color-celeste:#4BB7D9;
+$color-amarillo:#FFC006;
+$color-melon:#FBAF63;
+$color-guinda:#941010;
+.iconos{
+	background-color: blue;
+	display: inline-block;
+	text-align: center;
+}
+.principal{
+	width: 50px;
+}
+body{
+	font-family: $tipografia;
+	font-size: 13px;
+}
+
+//HOME
+p {
+	font-size: 40px;
+}
+
+.social{
+	background-color: blue;
+	display: inline-block;
+	text-align: center;
+}
+.filen{
+	display: block;
+	width: 900px;
+
+}
+.principal{
+	width: 97%;
+	
+}
+.contenido{
+	margin-top: 5px;
+}
+.peque
+{
+ 	padding-left:80px;
+ 	padding-right: 50px;
+
+ }
+.primero{
+	width: 500px;
+
+}
+
+
+.segundo{
+	margin-top: 30px;
+	width: 500px;
+}
+ul li {
+  list-style-type: none;
+}
+.descrip{
+	position: absolute;
+	top: 450px;
+	color: $color-blanco;
+	font-size: 30px;
+	margin-left: 10px;
+	margin-right: 40px;
+}
+.notas{
+	position: absolute;
+	top: 150px;
+	color: $color-blanco;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 40px;
+}
+.notas2{
+	position: absolute;
+	top: 480px;
+	color: $color-blanco;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 40px;
+}
+.rojo{
+	background-color: red;
+	text-align: center;
+	margin: 5px 490px;
+	color: $color-blanco;
+}
+.juntos{
+	display: inline-block;
+	width: 290px;
+}
+.bordex{
+	padding: 0px;
+}
+.notas3{
+	position: absolute;
+	bottom: 400px;
+	color: $color-blanco;
+	font-size: 15px;
+	margin-left: 4px;
+	margin-right: 300px;
+
+}
+.notas4{
+	position: absolute;
+	bottom: 350px;
+	color: $color-blanco;
+	font-size: 15px;
+	margin-left: 4px;
+	margin-right: 3px;
+}
+
+.balon{
+	position: absolute;
+	bottom: 50px;
+	color: $color-blanco;
+
+}
+h5{
+	color: $color-rojo;
+	text-align: center;
+}
+.smoll{
+	margin: 15px;
+
+}
+
+
+//BLOGS
+.blog{
+	border: 1px solid $color-gris-oscuro;
+	height: 250px;
+	width: 95%;
+	margin:auto;
+}
+.textoblog{
+	height:50%;
+}
+.celeste{
+	background-color:$color-gris-oscuro;
+	height: 40%;
+	width: 90%;
+	margin:auto;
+	margin-bottom:1%;
+}
+.blog-avatar{
+	border: 1px solid $color-blanco;
+	margin-top:3%;
+	margin-left:3%;
+	width: 25%;
+}
+.mt-3{
+	margin-top:3%;
+}
+.ml-3{
+	margin-left:3%;
+}
+.iconos{
+	padding: 30px;
+	max-width: 50px;
+}
+// inncludes
+.banner{
+	background-color: $color-gris;
+}
+.image-banner{
+	margin-top: 10px;
+	max-width: 100%;
+}
+.head-text{
+	margin-top: 10px;
+	margin-left: 75px;
+	font-size: 10px;
+}
+.head-text a{
+	color: $color-plomo;
+}
+.head-text i{
+	margin-right: 8px;
+	font-size: 12px;
+}
+.head-text .fa-facebook{
+	color: $color-blue;
+}
+.head-text .fa-twitter{
+	color: $color-celeste;
+}
+.head-text .fa-google-plus{
+	color: $color-rojoclaro;
+}
+.head-text .fa-envelope{
+	color: $color-amarillo;
+}
+.head-text .fa-rss{
+	color: $color-melon;
+}
+.head-text .col-md-4{
+	margin-left: 80px;
+}
+.head-text button{
+	background-color: $color-gris;
+	border: solid $color-gris;
+	border-left: solid $color-gris-oscuro;
+	border-right: solid $color-gris-oscuro;
+	color: $color-plomo;
+}
+#sub{
+	background-color: $color-rojoclaro;
+	color: $color-blanco;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+.menu{
+	padding-left: 5px;
+}
+.head-logo{
+	margin-top: 40px;
+}
+.futbol{
+	border: 1px solid $color-gris;
+	border-bottom: 2px solid $color-guinda;
+	padding: 5px;
+}
+.tit-fut{
+	background-color: $color-guinda;
+	color: $color-blanco;
+	width: 100px;
+	margin-top: -50px;
+	z-index: 1;
+	position: relative;
+}
